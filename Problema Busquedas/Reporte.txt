@@ -1,0 +1,16 @@
+Reporte
+
+Para correr el programa, simplemente tienes que correrlo, la versión es Python 3.9 pero no debería haber problemas
+Te sale un mensaje en el prompt 
+
+Ejemplo
+[172, 173, 173, 174, 175, 175, 175, 175, 176, 176] buscamos 174
+
+nos paramos en el indice 4 y revisamos A[4] = 175
+como 175 > 174 la cota superior se para en 3
+nos paramos en la mitad entre 0 y 3 , A[1] = 173
+como 174 > 173 la cota inferior se mueve a 2 
+nos paramos en la mitad j = 2 y A[2] = 173 
+como 174 > 173 movemos la cota inferior a 3
+revisamos A[3] = 174 y es el número que buscamos por lo tanto regresamos 3
+
